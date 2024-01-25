@@ -112,30 +112,6 @@ class comp {
   }
 }
 
-/* 
-var events = [
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-  new comp('Title', 'Date', 'assets//test.jpg'),
-]
-
-for (let i = 0; i < events.length; i++) {
-  events_container.innerHTML +=
-    '<div class="event-card">' + 
-      '<img src="' + events[i].img + '">' + 
-        '<div class="event-desc">' +
-          events[i].name +
-          '<span>' + events[i].date + '</span>' +
-        '</div>' +
-    '</div>'
-}
-*/
-
 var imgNo = 1;
 img(imgNo);
 
