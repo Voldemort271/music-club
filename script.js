@@ -51,6 +51,55 @@ var members = [
   new member("Satvik Mishra", "assets\\members\\satvik.jpeg", "Operational Head", "+91 63060 06854"),
   new member("Yadidya Suhas", "assets\\members\\suhas.jpg", "Operational Head", "+91 94419 69069"),
   new member("Akshat Kabra", "assets\\members\\akshat.jpeg", "Operational Head", "+91 70736 63544"),
+  new member("Bhavy Rahangdale", "assets\\template.jpg", "Percussionist", "—"),
+  new member("Jyotishman Gogoi", "assets\\template.jpg", "Keyboard", "—"),
+]
+
+var members2 = [
+  new member("Raghavendra", "", "Percussionist", "—"),
+  new member("Prasoon Bedi", "", "Percussionist", "—"),
+  new member("Sourja", "", "Percussionist", "—"),
+  
+  new member("Dipanjan", "", "Percussionist", "—"),
+
+  new member("Divye Dixit", "", "Electric Lead Guitar", "—"),
+  new member("Santanu Saha", "", "Electric Lead Guitar", "—"),
+
+  new member("Gauri", "", "Tabla", "—"),
+  
+  new member("Ankur", "", "Acoustic Guitar", "—"),
+  new member("Hemant", "", "Acoustic Guitar", "—"),
+  new member("Sampayan Chakraborty", "", "Acoustic Guitar", "—"),
+  new member("Aditya Ruhela", "", "Acoustic Guitar", "—"),
+  new member("Aditya Singh Gaharwar", "", "Acoustic Guitar", "—"),
+  new member("Shubham Prakash", "", "Acoustic Guitar", "—"),
+  
+  new member("Vanshika Sharma", "", "Flute", "—"),
+  new member("Sonu Kumar", "", "Flute", "—"),
+  
+  new member("Rhitoparna", "", "Sarod", "—"),
+  
+  new member("Rajeev Sharma", "", "Betaboxer", "—"),
+  new member("Vinith Seimson", "", "Betaboxer", "—"),
+  new member("Romit", "", "Betaboxer", "—"),
+  
+  new member("Nitika Gupta", "", "Vocalist", "—"),
+  new member("Aarya Suthar", "", "Vocalist", "—"),
+  new member("Dikshika Singh", "", "Vocalist", "—"),
+  new member("Jigeesha Sur", "", "Vocalist", "—"),
+  new member("Keshav Verma", "", "Vocalist", "—"),
+  new member("Nishant", "", "Vocalist", "—"),
+  new member("Aashutosh Ucholiya", "", "Vocalist", "—"),
+  new member("Aayushman Jha", "", "Vocalist", "—"),
+  new member("Aditi Srivastava", "", "Vocalist", "—"),
+  new member("Aishwarya Kaur", "", "Vocalist", "—"),
+  new member("Indra", "", "Vocalist", "—"),
+  new member("Anuska Majumdar", "", "Vocalist", "—"),
+  new member("Sagnik Sen", "", "Vocalist", "—"),
+  new member("Sambhabi Dhar", "", "Vocalist", "—"),
+  new member("Shivangi", "", "Vocalist", "—"),
+  new member("Snigdha", "", "Vocalist", "—"),
+  new member("Abhishek Tandon", "", "Vocalist", "—"),
 ]
 
 for (let i = 0; i < members.length; i++) {
@@ -64,6 +113,21 @@ for (let i = 0; i < members.length; i++) {
                     '</div>' +
                     '<div class="member-contact gold-gradient">' +
                       '<i class="fa-solid fa-phone"></i> ' + members[i].phone +
+                    '</div>' +
+                  '</div>'
+}
+
+
+for (let i = 0; i < members2.length; i++) {
+  members_container.innerHTML += 
+                  '<div class="member-card">' + 
+                    '<div class="content">' + 
+                      '<div class="member-card-content">' + 
+                        '<h3>' + members2[i].name + '<br><span>' + members2[i].designation + '</span></h3>' + 
+                      '</div>' +
+                    '</div>' +
+                    '<div class="member-contact gold-gradient">' +
+                      '<i class="fa-solid fa-phone"></i> ' + members2[i].phone +
                     '</div>' +
                   '</div>'
 }
