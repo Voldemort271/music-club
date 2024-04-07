@@ -46,7 +46,6 @@ class member {
 
 var members = [
   new member("Sadhanna Ramesh", "assets\\members\\sadhanna.jpg", "PR & Media Head", "+91 63662 04732"),
-  new member("Shivam Agarwal", "assets\\members\\shivam.jpeg", "Co-ordinator", "+91 83066 95749"),
   new member("Tejinder Sethi", "assets\\members\\tejinder.jpeg", "Logistics Head", "+91 96253 55458"),
   new member("Satvik Mishra", "assets\\members\\satvik.jpeg", "Operational Head", "+91 63060 06854"),
   new member("Yadidya Suhas", "assets\\members\\suhas.jpg", "Operational Head", "+91 94419 69069"),

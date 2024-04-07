@@ -1024,8 +1024,8 @@ section {
 }
 
 #coordinator-pic {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1047,6 +1047,72 @@ section {
 }
 
 #coordinator-contacts {
+  margin: 15px 0px;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  color: #fff6edaa;
+}
+
+#faculty-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+#faculty-card {
+  width: 100%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0.7;
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#faculty-card:hover {
+  opacity: 1;
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  transform: translateY(-15px);
+}
+
+#faculty-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 10px solid #151919;
+  margin-right: 20px;
+}
+
+#faculty-card h2 {
+  font-weight: 700;
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  width: 100%;
+}
+
+#faculty-card h4 {
+  margin-top: -20px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#faculty-contacts {
   margin: 15px 0px;
   line-height: 2rem;
   letter-spacing: 2px;
